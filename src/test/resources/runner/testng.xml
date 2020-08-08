@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Page Object Model Basics">
+
+  	<listeners>
+		<!--   <listener class-name="org.uncommons.reporting.HTMLReporter" />
+		  <listener class-name="org.uncommons.reporting.JUnitXMLReporter" />-->
+		<listener class-name="com.forms.listeners.CustomListeners" />
+	</listeners>
+
+	<test name=" Login Test">
+		<classes>
+			<class name="com.forms.testcases.LoginTest" />
+		</classes>
+</test> <!-- Test -->
+	<test name=" CreatebcfTest">
+		<classes>
+			<class name="com.forms.testcases.CreatebcfTest" />
+		</classes>
+	</test> <!-- Test -->
+		<!-- Test -->
+</suite> <!-- Suite -->
