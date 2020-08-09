@@ -19,7 +19,7 @@ import com.forms.pages1.SFormsPage1;
 public class LoginTest {
 
 	public static void main(String[] args) throws InterruptedException {
-		//checking the commit in github for github poll to run
+		
 		HomePage1 home = new HomePage1();
 		LoginPage1 lp =home.goToLogin();
 		
