@@ -20,6 +20,7 @@ public class LoginTest {
 
 	public static void main(String[] args) throws InterruptedException {
 		//check for auto jenkins schedule after webhook
+		//USING EGIT Plugin
 		HomePage1 home = new HomePage1();
 		LoginPage1 lp =home.goToLogin();
 		
