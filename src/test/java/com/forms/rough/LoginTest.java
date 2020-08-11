@@ -19,7 +19,7 @@ import com.forms.pages1.SFormsPage1;
 public class LoginTest {
 
 	public static void main(String[] args) throws InterruptedException {
-		//check for auto jenkins schedule
+		//check for auto jenkins schedule after webhook
 		HomePage1 home = new HomePage1();
 		LoginPage1 lp =home.goToLogin();
 		
